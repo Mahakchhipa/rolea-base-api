@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 const express = require("express")
+const usermodel = require("./schemas/userModel")
 const app = express();
 require('dotenv').config()
 const port = process.env.port
